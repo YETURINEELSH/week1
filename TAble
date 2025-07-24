@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Timetable</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      table-layout: fixed;
+    }
+
+    th, td {
+      border: 1px solid #333;
+      padding: 8px;
+      text-align: center;
+      vertical-align: top;
+      font-size: 12px;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+
+    td {
+      height: 80px;
+      white-space: pre-wrap;
+    }
+
+    .day {
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body style="font-family: Arial, sans-serif;">
+
+<h2>Weekly Timetable</h2>
+
+<table style="border-collapse: collapse;width: 100%;table-layout: fixed;">
+  <thead>
+    <tr>
+      <th>Day</th>
+      <th>1</th>
+      <th>2</th>
+      <th>3</th>
+      <th>4</th>
+      <th>5</th>
+      <th>6</th>
+      <th>7</th>
+      <th>8</th>
+      <th>9</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="day">Mon</td>
+      <td>24SC2006-L<br>S-5<br>RoomNo-H-107</td>
+      <td>24SC2006-L<br>S-5<br>RoomNo-H-107</td>
+      <td>24AD2103-P<br>S-3<br>RoomNo-HC-15C</td>
+      <td>24AD2103-P<br>S-3<br>RoomNo-HC-15C</td>
+      <td></td>
+      <td></td>
+      <td>24AD2001-P<br>S-1<br>RoomNo-HC-15A</td>
+      <td>24AD2001-P<br>S-1<br>RoomNo-HC-15A</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="day">Tue</td>
+      <td>24CS2101-P<br>S-1<br>RoomNo-HC-15A</td>
+      <td>24CS2101-P<br>S-1<br>RoomNo-HC-15A</td>
+      <td>24MT2019-L<br>S-4<br>RoomNo-H103</td>
+      <td>24MT2019-L<br>S-4<br>RoomNo-H103</td>
+      <td></td>
+      <td>24SC2006-L<br>S-5<br>RoomNo-H-107</td>
+      <td>24SC2006-S<br>S-5<br>RoomNo-H-107</td>
+      <td>24SC2006-S<br>S-5<br>RoomNo-H-107</td>
+      <td>24AD2001-L<br>S-1<br>RoomNo-H-003</td>
+    </tr>
+    <tr>
+      <td class="day">Wed</td>
+      <td>24AD2001-L<br>S-1<br>RoomNo-H-003</td>
+      <td>24AD2001-L<br>S-1<br>RoomNo-H-003</td>
+      <td>24CS2101-L<br>S-1<br>RoomNo-H-003</td>
+      <td>24CS2101-L<br>S-1<br>RoomNo-H-003</td>
+      <td></td>
+      <td>24SDCS01-L<br>S-4<br>RoomNo-H103</td>
+      <td>24UC0022-P<br>S-3<br>RoomNo-H102</td>
+      <td>24UC0022-P<br>S-3<br>RoomNo-H102</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="day">Thu</td>
+      <td>24SDCS01-S<br>S-4<br>RoomNo-HC-15A</td>
+      <td>24SDCS01-S<br>S-4<br>RoomNo-HC-15A</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>24SDCS01-S<br>S-4<br>RoomNo-HC-15A</td>
+      <td>24SDCS01-S<br>S-4<br>RoomNo-HC-15A</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="day">Fri</td>
+      <td>24AD2103-L<br>S-3<br>RoomNo-H102</td>
+      <td>24AD2103-L<br>S-3<br>RoomNo-H102</td>
+      <td>24MT2019-T<br>S-4<br>RoomNo-H103</td>
+      <td>24MT2019-T<br>S-4<br>RoomNo-H103</td>
+      <td></td>
+      <td>24CS2101-L<br>S-1<br>RoomNo-H-003</td>
+      <td>24SP2104-S<br>S-1<br>RoomNo-H-004</td>
+      <td>24SP2104-S<br>S-1<br>RoomNo-H-004</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="day">Sat</td>
+      <td>23UC0013-S<br>S-5<br>RoomNo-H-107</td>
+      <td>23UC0013-S<br>S-5<br>RoomNo-H-107</td>
+      <td>24SC2006-P<br>S-5<br>RoomNo-HC-15D</td>
+      <td>24SC2006-P<br>S-5<br>RoomNo-HC-15D</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>24AD2103-L<br>S-3<br>RoomNo-H-306</td>
+    </tr>
+  </tbody>
+</table>
+
+</body>
+</html>
